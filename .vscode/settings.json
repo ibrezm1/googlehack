@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "type_traits": "cpp",
+        "string_view": "cpp",
+        "regex": "cpp",
+        "random": "cpp"
+    },
+    "files.exclude": {
+        "**/*.out": true,
+        "**/*.sh": true
+    },
+    "editor.formatOnSave": true
+}
