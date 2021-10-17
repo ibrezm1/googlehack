@@ -1,6 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
+struct player
+{
+    string name;
+    int rating;
+};
 bool sortbysec(const pair<int, int> &a,
                const pair<int, int> &b)
 {
@@ -31,7 +36,7 @@ void solveit()
         if (avail / curr > 0)
         {
             cnt = avail / curr;
-            sell = sell + cnt * cl[curr];
+            sell = sell + cnt * cl[curr - 1];
             avail = avail % cnt;
         }
         i++;
