@@ -4,7 +4,8 @@
         "type_traits": "cpp",
         "string_view": "cpp",
         "regex": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp"
     },
     "files.exclude": {
         "**/*.out": true,

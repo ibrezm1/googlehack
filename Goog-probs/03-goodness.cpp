@@ -7,7 +7,7 @@ void solveit()
     string S;
     cin >> N >> K;
     cin >> S;
-
+    //Add implementation here
     cout << "Sol" << endl;
 }
 

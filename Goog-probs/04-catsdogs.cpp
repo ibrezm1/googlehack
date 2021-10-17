@@ -15,7 +15,7 @@ void solveit()
             dogstobefed++, lastdog = i;
     }
 
-    for (int i; i < N; i++)
+    for (int i; i <= lastdog; i++)
     {
         if (S[i])
     }
